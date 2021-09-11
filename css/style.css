@@ -1,0 +1,36 @@
+.welcome{
+    background-image: url(../images/backgrounds/h_img.jpg);
+        background-position: center center;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding-top:40%; 
+        /*height: 100vh;*/
+}
+h2{
+    text-align: center;
+}
+.about{
+text-align:center;
+padding:40px 40px 40px 40px;
+}
+.services{
+    background-image: url(../images/backgrounds/s_image.jpg);
+    background-position: center center;
+    background-size: cover;
+    height:50vh;
+}
+.info{
+    background-image: url(../images/backgrounds/c_image.jpg);
+    background-position: center center;
+    background-size: cover;
+    height:80vh;
+}
+.footer{
+padding:20px;
+display: flex;
+justify-content: center;
+}
+h4{
+text-align: center;
+}
