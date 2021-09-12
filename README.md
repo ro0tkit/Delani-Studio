@@ -1,1 +1,1 @@
-# Delani-Studio.io
+# Delani-Studio
