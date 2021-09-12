@@ -1,12 +1,13 @@
 .welcome{
     background-image: url(../images/backgrounds/h_img.jpg);
-        background-position: center center;
-        background-size: cover;
-        color: white;
-        text-align: center;
-        padding-top:40%; 
-        /*height: 100vh;*/
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+   padding-top:20%; 
+   padding-bottom: 20%;    
 }
+
 h2{
     text-align: center;
 }
@@ -20,11 +21,39 @@ padding:40px 40px 40px 40px;
     background-size: cover;
     height:50vh;
 }
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*padding:100px;*/
+    height:100vh;
+}
+.portfolio{
+    align-items: center;
+
+}
+.row{
+    padding-bottom: 20px;
+}
 .info{
     background-image: url(../images/backgrounds/c_image.jpg);
     background-position: center center;
     background-size: cover;
     height:80vh;
+    padding: 20px;
+}
+form{
+    color:white;
+    background: transparent !important;
+    margin-left: 30%;
+}
+
+#message{
+    
+    width: 50%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid;  
 }
 .footer{
 padding:20px;
