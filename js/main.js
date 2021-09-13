@@ -7,6 +7,9 @@
 
 
 
+
+
+
 //User Interface Logic
 
 $(document).ready(function(){
@@ -38,7 +41,13 @@ $(document).ready(function(){
         var userName = $("input#name").val();
         var email = $("input#email").val();
         var text = $("#message").val();
-        alert("Than you "+userName+" for reaching out to us.");
+
+        if(!userName||!email){
+            alert("Please Enter Valid Name and Email!");
+        }else{
+            alert("Than you "+userName+" for reaching out to us.");
+        }
+        
     });
    
 });
