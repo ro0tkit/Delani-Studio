@@ -9,7 +9,7 @@ body{
     color: white;
     text-align: center;
    padding-top:20%; 
-   padding-bottom: 20%;    
+   padding-bottom: 10%; 
 }
 
 h2,h3,h4{
@@ -32,21 +32,33 @@ padding:40px 40px 40px 40px;
     padding-bottom: 20px;
     text-align: center;
 }
+/*
+#overlay {
+    display: none;
+    background-color:rgba(255, 0, 0, 0.3);
+    position:absolute;
+    
+  }
+*/
+.development ,.design , .products{
+    display: none;
+}
 .info{
     background-image: url(../images/backgrounds/c_image.jpg);
     background-position: center center;
     background-size: cover;
     height:80vh;
     padding: 20px;
-    color:white;51, 148, 148)
+    color:white;
 }
+
 form{
     color:white;
     margin:20px;
     text-align: left;
 }
 .form-control{
-    background-color: rgba(0, 0, 0, 0);;
+    background-color:transparent;
 }
 
 #message{
