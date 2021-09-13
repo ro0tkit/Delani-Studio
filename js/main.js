@@ -2,7 +2,7 @@
 
 
 
-
+  
 
 
 
@@ -13,26 +13,42 @@
 //User Interface Logic
 
 $(document).ready(function(){
+    
 
-    $(".development").hide(function(){
+    
         $("#dev-image").click(function(){
-            $(".development").toggle();
+            $("#dev-image").hide();
+            $(".development").show();
     
         });
-    });
+        $(".development").click(function(){
+            $(".development").hide();
+            $("#dev-image").show();
+    
+        });
 
     
-    $(".products").hide(function(){
-        $("#product-image").click(function(){
-            $(".products").toggle();
-        })
+    $("#product-image").click(function(){
+        $("#product-image").hide();
+        $(".products").show();
+
     });
 
-    
-    $(".design").hide(function(){
+    $(".products").click(function(){
+        $(".products").hide();
+        $("#product-image").show();
+
+    });
+   
         $("#design-image").click(function(){
-            $(".design").toggle();
-        })
+            $("#design-image").hide()
+            $(".design").show();
+        
+    });
+
+    $(".design").click(function(){
+        $(".design").hide()
+        $("#design-image").show();
     });
 
     /*------Form----------*/
@@ -50,5 +66,13 @@ $(document).ready(function(){
         
     });
    
+    
+    $("#black").hover(function(){
+        $("#black").addClass("overlay");
+      })
+
+
+
+
 });
 
