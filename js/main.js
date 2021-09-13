@@ -10,17 +10,36 @@
 //User Interface Logic
 
 $(document).ready(function(){
-    $("#dev-image").click(function(){
-        $(".development").toggle();
+
+    $(".development").hide(function(){
+        $("#dev-image").click(function(){
+            $(".development").toggle();
+    
+        });
     });
 
-    $("#product-image").click(function(){
-        $(".products").toggle();
-    })
+    
+    $(".products").hide(function(){
+        $("#product-image").click(function(){
+            $(".products").toggle();
+        })
+    });
 
-    $("#design-image").click(function(){
-        $(".design").toggle();
-    })
+    
+    $(".design").hide(function(){
+        $("#design-image").click(function(){
+            $(".design").toggle();
+        })
+    });
+
+    /*------Form----------*/
+    $("#form").submit(function(e){
+        e.preventDefault();
+        var userName = $("input#name").val();
+        var email = $("input#email").val();
+        var text = $("#message").val();
+        alert("Than you "+userName+" for reaching out to us.");
+    });
    
 });
 

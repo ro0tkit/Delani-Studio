@@ -6,7 +6,11 @@
     
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/main.js"></script>
-    <title>Hello, world!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Delani Studio</title>
   </head>
   <body>
 
@@ -15,11 +19,11 @@
           <div class="welcome">
             <img src="images/logo/logo.png" alt="delani logo">
             <h1>WELCOME TO DELANI STUDIO</h1>
-            <h2>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>
+            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
           </div>
           
           <div class="col-12 about">
-            ABOUT US
+            <h3>ABOUT US</h3>
             <p>When you work with us, you are part of a team of commited collaborators. All aspects of our software development process are intergrated , interactive and agile.
 
               <p>Our approach unifies design, development and product managent to create exceptional products.</p>
@@ -30,13 +34,16 @@
 
           </div>
           <div class="services">
-            SERVICES
+            <h3>SERVICES</h3>
+            <p>Before wesign a contract or write a single line of code our team will spend the necessary time needed to understand your product vision.<br/>The outcome of the scoping session is proposed or high-level statement of work based on your requirements,we can provide a complete offering or just the places you need.</p>
           </div>
-          <div class="description">
-            WHAT WE DO
-            <div class="col-md-4">
+
+          <h3>WHAT WE DO</h3>
+
+          <div class="row description">
+            <div class="col-4">
               <div id="design-image">
-                <img src="images/services_icons/design_icon.png" alt="design icon">
+                <img src="images/services_icons/design_icon.png" class="rounded" alt="design icon">
                 <p>DESIGN</p>
               </div>
               <div class="design">
@@ -46,9 +53,9 @@
               </div>
             </div>
 
-              <div class="col-md-4">
+              <div class="col-4">
                 <div id="dev-image">
-                  <img src="images/services_icons/dev_icon.png" alt="development icon">
+                  <img src="images/services_icons/dev_icon.png" class="rounded" alt="development icon">
                   <p>DEVELOPMENT</p>
                 </div>
                 <div class="development">
@@ -58,9 +65,9 @@
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-4">
                 <div id="product-image">
-                  <img src="images/services_icons/product_icon.png" alt="product icon">
+                  <img src="images/services_icons/product_icon.png"class="rounded" alt="product icon">
                   <p>PRODUCT MANAGEMENT</p>
                 </div>
                 <div class="products">
@@ -74,7 +81,7 @@
           </div>
 
           <div class="portfolio">
-            PORFOLIO
+            <h3>PORFOLIO</h3>
             <div class="row">
               <div class="col-md-3">
                 <img src="images/portfolio/work4.jpg" alt="black" class="img-fluid">
@@ -110,15 +117,15 @@
 
           
           <div class="col-12 info">
-            CONTACT US
+            <h3>CONTACT US</h3>
             <form id="form">
               <div class="form-group">
               <label>Name</label> 
-              <input type="text" class="required" id="name" placeholder="John Doe">
+              <input type="text" class="form-control" id="name" placeholder="John Doe">
               </div>
               <div class="form-group">
                 <label>Email</label>
-              <input type="email" id="email" placeholder="johndoe@example.com"><br/>
+              <input type="email" class="form-control" id="email" placeholder="johndoe@example.com"><br/>
               </div>
               <div class="form-goup">
                 <label>Textarea</label>

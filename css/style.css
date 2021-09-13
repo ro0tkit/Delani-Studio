@@ -25,6 +25,7 @@ padding:40px 40px 40px 40px;
     background-position: center center;
     background-size: cover;
     height:50vh;
+    color:white;
 }
 
 .row{
@@ -37,10 +38,11 @@ padding:40px 40px 40px 40px;
     background-size: cover;
     height:80vh;
     padding: 20px;
+    color:white;51, 148, 148)
 }
 form{
     color:white;
-    margin: 20px;
+    margin:20px;
     text-align: left;
 }
 .form-control{
@@ -52,7 +54,8 @@ form{
     width: 50%;
     line-height: 1.5;
     border-radius: 5px;
-    border: 1px solid;  
+    border: 1px solid rgb(255, 255, 255, 0.6);  
+
 }
 .footer{
 padding:20px;
